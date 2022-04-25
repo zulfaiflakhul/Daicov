@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="susun_kata">My RecyclerView</string>
+
+    <string-array name="susunkata">
+        <item>SAYA</item>
+        <item>KAMU</item>
+        <item>JALAN</item>
+        <item>SELAMAT</item>
+        <item>PAGI</item>
+        <item>SIANG</item>
+        <item>SORE</item>
+        <item>PAGI</item>
+        <item>MAKAN</item>
+        <item>MINUM</item>
+    </string-array>
+
+</resources>

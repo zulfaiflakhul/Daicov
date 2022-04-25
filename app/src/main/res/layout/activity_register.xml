@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_all"
+    tools:context=".login.Register">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:id="@+id/tv_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-black"
+            android:text="REGISTER"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="230dp"
+            android:layout_height="167dp"
+            android:layout_below="@id/tv_register"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/et_reg_nama"
+            android:hint="Nama"
+            android:drawableStart="@drawable/ic_person"
+            android:drawableTint="@color/white"
+            android:background="@drawable/custom_et"
+            android:layout_marginTop="30dp"
+            android:drawablePadding="10dp"
+            android:paddingStart="20dp"
+            android:autofillHints="name"
+            android:inputType="textPersonName"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/white"
+            android:layout_below="@id/img_logo"
+            android:textColorHint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <EditText
+            android:id="@+id/et_reg_email"
+            android:hint="Email"
+            android:drawableStart="@drawable/ic_email"
+            android:drawableTint="@color/white"
+            android:background="@drawable/custom_et"
+            android:layout_marginTop="10dp"
+            android:drawablePadding="10dp"
+            android:paddingStart="20dp"
+            android:autofillHints="emailAddress"
+            android:inputType="textEmailAddress"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/white"
+            android:layout_below="@id/et_reg_nama"
+            android:textColorHint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <EditText
+            android:id="@+id/et_reg_password"
+            android:hint="Password"
+            android:drawableStart="@drawable/ic_lock"
+            android:drawableTint="@color/white"
+            android:background="@drawable/custom_et"
+            android:layout_marginTop="10dp"
+            android:drawablePadding="10dp"
+            android:paddingStart="20dp"
+            android:autofillHints="password"
+            android:inputType="textPassword"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/white"
+            android:layout_below="@id/et_reg_email"
+            android:textColorHint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <EditText
+            android:id="@+id/et_reg_password2"
+            android:hint="Konfirmasi Password"
+            android:drawableStart="@drawable/ic_lock"
+            android:drawableTint="@color/white"
+            android:background="@drawable/custom_et"
+            android:layout_marginTop="10dp"
+            android:drawablePadding="10dp"
+            android:paddingStart="20dp"
+            android:autofillHints="password"
+            android:inputType="textPassword"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/white"
+            android:layout_below="@id/et_reg_password"
+            android:textColorHint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <ImageButton
+            android:id="@+id/btn_save"
+            android:layout_width="136dp"
+            android:layout_height="46dp"
+            android:layout_below="@id/et_reg_password2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/save"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/login"
+            android:text="Sudah punya akun? Login"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-black"
+            android:layout_below="@id/btn_save"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

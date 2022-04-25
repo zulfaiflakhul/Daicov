@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Daicov</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="daicov_nlive_penerjemah_nlearn_sign_language_everywhere">DAICOV\nLive Penerjemah\nLearn Sign Language EVERYWHERE</string>
+    <string name="game">Game</string>
+    <string name="belajar_bahasa_isyarat_dengan_gambar">Belajar Bahasa Isyarat dengan Gambar</string>
+    <string name="belajar_bahasa_isyarat_dengan_video">Belajar Bahasa Isyarat dengan Video</string>
+    <string name="belajar">BELAJAR</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="email">Email</string>
+    <string name="belum_punya_akun_register">Belum punya akun? Register</string>
+    <string name="penerjemah_secara_real_time_buka_menu_penerjemah_kemudian_arahkan_kamera_ke_tangan_dengan_gerakkan_sign_language_kamera_akan_otomatis_mendeteksi_huruf_dari_sign_language">Penerjemah secara Real Time. Buka Menu Penerjemah kemudian arahkan kamera ke tangan dengan gerakkan sign language. Kamera akan otomatis mendeteksi huruf dari sign language.</string>
+    <string name="menu_fun_learning_berisi_materi_pembelajaran_tentang_sign_language_didalamnya_ada_materi_dengan_bentuk_gambar_dan_video_pengguna_dapat_memilih_belajar_dengan_materi_gambar_atau_video_setelah_dipilih_nanti_akan_muncul_gambar_atau_video_pembelajaran_sign_language">Menu Fun Learning berisi materi pembelajaran tentang sign language, didalamnya ada materi dengan bentuk gambar dan video. Pengguna dapat memilih belajar dengan materi gambar atau video. setelah dipilih nanti akan muncul gambar atau video pembelajaran sign language</string>
+    <string name="menu_game_pengguna_dapat_memilih_game_tebak_huruf_tebak_gambar_dan_susun_kata_pengguna_memilih_salah_satu_game_kemudian_akan_diarahkan_ke_dalam_activity_game_pengguna_dapat_mendeteksi_huruf_gambar_dan_menyusun_kata_yang_dipilih_dengan_sign_language">Menu Game pengguna dapat memilih game tebak huruf, tebak gambar, dan susun kata. Pengguna memilih salah satu game kemudian akan diarahkan ke dalam activity game. Pengguna dapat mendeteksi huruf, gambar, dan menyusun kata yang dipilih dengan sign language</string>
+</resources>

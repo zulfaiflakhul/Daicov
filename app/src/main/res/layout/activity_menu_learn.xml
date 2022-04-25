@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_all"
+    tools:context=".belajar.MenuLearn">
+
+    <RelativeLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="85dp"
+                android:layout_height="74dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/logo" />
+
+            <ImageView
+                android:id="@+id/avatar_learn_profile"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/avatar" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:layout_toStartOf="@id/avatar_learn_profile"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_learn_nama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:fontFamily="sans-serif-black"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_learn_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:text=""
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/menu"
+            android:layout_below="@id/top_bar"
+            android:layout_marginTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/back_menu"
+                android:layout_width="match_parent"
+                android:layout_height="470dp"
+                android:src="@drawable/back_learn" />
+
+            <ImageButton
+                android:id="@+id/btn_learn_gambar"
+                android:layout_marginTop="150dp"
+                android:layout_marginStart="20dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/gambar" />
+
+            <ImageButton
+                android:id="@+id/btn_learn_video"
+                android:layout_marginTop="280dp"
+                android:layout_gravity="right"
+                android:layout_marginEnd="20dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@drawable/video" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

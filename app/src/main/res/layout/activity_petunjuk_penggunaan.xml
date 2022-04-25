@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_all"
+    tools:context=".help.PetunjukPenggunaan">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/tv_akun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-black"
+            android:text="Petunjuk Penggunaan"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="121dp"
+            android:layout_height="98dp"
+            android:layout_below="@id/tv_akun"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo" />
+
+        <ScrollView
+            android:layout_below="@id/logo"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/profile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/bantuan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/tv_pp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Petunjuk Penggunaan\nAplikasi Daicov"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tv_pp_penerjemah"
+                    android:text="1. Penerjemah"
+                    android:layout_below="@id/tv_pp"
+                    android:layout_marginStart="20dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/pp_penerjemah"
+                    android:text="@string/penerjemah_secara_real_time_buka_menu_penerjemah_kemudian_arahkan_kamera_ke_tangan_dengan_gerakkan_sign_language_kamera_akan_otomatis_mendeteksi_huruf_dari_sign_language"
+                    android:textColor="@color/black"
+                    android:layout_below="@id/tv_pp_penerjemah"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_pp_funlearning"
+                    android:text="2. Fun Learning"
+                    android:layout_below="@id/pp_penerjemah"
+                    android:layout_marginStart="20dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/pp_funlearning"
+                    android:text="@string/menu_fun_learning_berisi_materi_pembelajaran_tentang_sign_language_didalamnya_ada_materi_dengan_bentuk_gambar_dan_video_pengguna_dapat_memilih_belajar_dengan_materi_gambar_atau_video_setelah_dipilih_nanti_akan_muncul_gambar_atau_video_pembelajaran_sign_language"
+                    android:textColor="@color/black"
+                    android:layout_below="@id/tv_pp_funlearning"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/tv_pp_game"
+                    android:text="3. Game"
+                    android:layout_below="@id/pp_funlearning"
+                    android:layout_marginStart="20dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/pp_game"
+                    android:text="@string/menu_game_pengguna_dapat_memilih_game_tebak_huruf_tebak_gambar_dan_susun_kata_pengguna_memilih_salah_satu_game_kemudian_akan_diarahkan_ke_dalam_activity_game_pengguna_dapat_mendeteksi_huruf_gambar_dan_menyusun_kata_yang_dipilih_dengan_sign_language"
+                    android:textColor="@color/black"
+                    android:layout_below="@id/tv_pp_game"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="5dp"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

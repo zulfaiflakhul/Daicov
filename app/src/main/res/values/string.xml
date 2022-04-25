@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tebak_huruf">My RecyclerView</string>
+
+    <string-array name="game_level">
+        <item>HURUF A</item>
+        <item>HURUF B</item>
+        <item>HURUF D</item>
+        <item>HURUF E</item>
+        <item>HURUF F</item>
+        <item>HURUF G</item>
+        <item>HURUF H</item>
+        <item>HURUF I</item>
+        <item>HURUF J</item>
+        <item>HURUF K</item>
+        <item>HURUF L</item>
+        <item>HURUF M</item>
+        <item>HURUF N</item>
+        <item>HURUF O</item>
+        <item>HURUF P</item>
+        <item>HURUF Q</item>
+        <item>HURUF R</item>
+        <item>HURUF S</item>
+        <item>HURUF T</item>
+        <item>HURUF U</item>
+        <item>HURUF V</item>
+        <item>HURUF W</item>
+        <item>HURUF X</item>
+        <item>HURUF Y</item>
+        <item>HURUF Z</item>
+
+
+
+    </string-array>
+    
+</resources>
