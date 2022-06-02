@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "337002733228",
+    "firebase_url": "https://diacovauth-default-rtdb.firebaseio.com",
     "project_id": "diacovauth",
     "storage_bucket": "diacovauth.appspot.com"
   },
